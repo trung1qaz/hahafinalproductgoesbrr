@@ -1,0 +1,256 @@
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+
+
+header{
+    background-color:whitesmoke;
+    width: 100%;
+    border:outset;
+    top: 0;
+    left:0;
+    z-index: 1;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+a img{
+    width: 30px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#product-list{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.product-item{
+    border: groove ;
+    width: 400px;
+    margin-bottom: 106px;
+   background-color: whitesmoke;
+   text-align: center;
+   position: relative;
+}
+.product-item a{
+    text-decoration: none;
+    color:red;
+}
+.product-item img{
+    width:400px; 
+    height: 400px;
+}
+
+.product-item-info{
+    background-color: aqua;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.product-item:hover .product-item-info{
+    opacity: 1;
+}
+h1{
+    color: red;
+}
+nav ul{
+    margin:0px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right:15px;
+    
+}   
+a{
+    text-decoration: none;
+    color:blue;
+    font-size: large;
+    
+}
+
+nav ul li a {
+    color:white;
+    border:outset;
+    border-color:grey;
+    background:darkgrey;
+    padding:5px 20px;
+}
+.container{
+    max-width: 1500px;
+    min-width: 750px;
+    margin: auto
+}
+h1{
+    font-size: 30px;
+
+}
+
+
+a:hover{
+    color:red;
+}
+.row{
+    margin: 0px -18px;
+    padding: 8px;
+}
+.col{
+    background:whites;
+    padding:0px;
+    margin:1%;
+    float:left;
+    width:30%;
+}
+.content{
+    border:solid ,lightgray;
+    padding:10px;
+    background-color: lightgray;
+}
+img{
+    width: 100%;
+}
+.col2{
+    background:whites;
+    padding:0px;
+    margin:1%;
+    float:left;
+    width:48%;
+}
+body{
+    background-color:white;
+    background-image: url(https://img3.thuthuatphanmem.vn/uploads/2019/09/30/background-vector-thanh-pho_022028585.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 500px;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.map img{
+    width: 80%;
+
+}
+.map{
+    text-align: center;
+}
+.btn-fb {
+    position: fixed;
+    top: 50%;
+    right: 24px;
+    margin-top: -52px;
+    z-index: 999;
+}
+.btn-zl {
+    position: fixed;
+    top: 40%;
+    right: 24px;
+    margin-top: -52px;
+    z-index: 999;
+}
+.btn-gm {
+    position: fixed;
+    top: 45%;
+    right: 24px;
+    margin-top: -52px;
+    z-index: 999;
+}
+.homepage{
+    background-color: lightgray;
+    padding:10px 20px;
+}
+img:hover{
+    opacity: 0.8;
+}
+
+header img{
+    width: 100%;
+}
+.map img:hover{
+    opacity: 1;
+}
+header img:hover{
+    opacity: 1;
+}
+.col3{
+    background:lightgray;
+    padding-bottom:10px;
+    margin:1%;
+    float:left;
+    width:35%;
+}
+.col4{
+    background:lightgray;
+    padding:0px;
+    margin:1%;
+    float:left;
+    width:60%;
+}
+
+.submit-btn{
+    width: 30%;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border:0;
+    outline:none ;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding:10px 2px;
+}
+th{
+    padding: 0px 50px;
+}
+h6{
+    font-size: xx-large;
+    text-align: center;
+}
+.text-area{
+    display: flex;
+    align-items:flex-start ;
+}
